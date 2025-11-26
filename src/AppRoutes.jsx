@@ -1,14 +1,14 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import TopOrderPage from './Pages/TopOrderPage';
+import ProductListing from './Pages/ProductListing';
+
 const AppRoutes = () => {
   return (
-    <>
     <Router>
-        <Routes>
-            <Route path="/" element={<TopOrderPage />} />
-        </Routes>
-        </Router>    </>
+      <Routes>
+        <Route path="/" element={<ProductListing />} />
+      </Routes>
+    </Router>
   )
 }
 

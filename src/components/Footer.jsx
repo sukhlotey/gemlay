@@ -36,11 +36,11 @@ const Footer = () => {
                     <div className="text-center">
                         <p className="font-bold text-gray-700 text-xs mb-3 uppercase">FOLLOW US</p>
                         <div className="flex gap-4 justify-center">
-                            <img src="src/assets/facebook.png" alt="Facebook" className="w-6 h-6" />
-                            <img src="src/assets/instagram.png" alt="Instagram" className="w-6 h-6" />
-                            <img src="src/assets/youtube.png" alt="YouTube" className="w-6 h-6" />
-                            <img src="src/assets/pint.png" alt="Pinterest" className="w-6 h-6" />
-                            <img src="src/assets/wiki.png" alt="Wikipedia" className="w-6 h-6" />
+                            <img src="/images/facebook.png" alt="Facebook" className="w-6 h-6" />
+                            <img src="/images/instagram.png" alt="Instagram" className="w-6 h-6" />
+                            <img src="/images/youtube.png" alt="YouTube" className="w-6 h-6" />
+                            <img src="/images/pint.png" alt="Pinterest" className="w-6 h-6" />
+                            <img src="/images/wiki.png" alt="Wikipedia" className="w-6 h-6" />
                         </div>
                     </div>
                 </div>
@@ -93,10 +93,10 @@ const Footer = () => {
                             <p className="font-bold text-gray-700 text-xs mb-3">Download Our Application</p>
                             <div className="flex gap-2">
                                 <div className="text-white rounded flex items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity">
-                                    <img src="src/assets/google.png" alt="Google Play" />
+                                    <img src="/images/google.png" alt="Google Play" />
                                 </div>
                                 <div className="rounded flex items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity">
-                                    <img src="src/assets/appstore.png" alt="App Store" />
+                                    <img src="/images/appstore.png" alt="App Store" />
                                 </div>
                             </div>
                         </div>
@@ -104,11 +104,11 @@ const Footer = () => {
                         <div className="mt-8 hidden md:block">
                             <p className="font-bold text-gray-700 text-xs mb-3 uppercase text-center md:text-left">FOLLOW US</p>
                             <div className="flex gap-3 justify-center md:justify-start">
-                                <img src="src/assets/facebook.png" alt="Facebook" />
-                                <img src="src/assets/instagram.png" alt="Instagram" />
-                                <img src="src/assets/youtube.png" alt="YouTube" />
-                                <img src="src/assets/pint.png" alt="Pinterest" />
-                                <img src="src/assets/wiki.png" alt="Wikipedia" />
+                                <img src="/images/facebook.png" alt="Facebook" />
+                                <img src="/images/instagram.png" alt="Instagram" />
+                                <img src="/images/youtube.png" alt="YouTube" />
+                                <img src="/images/pint.png" alt="Pinterest" />
+                                <img src="/images/wiki.png" alt="Wikipedia" />
                             </div>
                         </div>
                     </div>

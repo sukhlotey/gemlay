@@ -9,7 +9,7 @@ const ProductCard = ({ product, isMobile, isSecondInMobile }) => {
             <div className="relative p-4 pb-0">
                 {!(isMobile && isSecondInMobile) && (
                     <div className="absolute top-1 left-0 h-[30] w-[140px]">
-                        <img src={`src/assets/${product.badge}`} alt="Badge" className="w-full h-auto object-contain" />
+                        <img src={`/images/${product.badge}`} alt="Badge" className="w-full h-auto object-contain" />
                     </div>
                 )}
 
@@ -26,7 +26,7 @@ const ProductCard = ({ product, isMobile, isSecondInMobile }) => {
 
                 <div className="relative aspect-[4/3] flex items-center justify-center mt-4">
                     <img
-                        src={`src/assets/${product.mainImage}`}
+                        src={`/images/${product.mainImage}`}
                         alt="Product"
                         className="max-w-full max-h-full object-contain hover:scale-105 transition-transform duration-500"
                     />
@@ -71,13 +71,13 @@ const ProductCard = ({ product, isMobile, isSecondInMobile }) => {
 
                 <div className="flex items-center justify-between ">
                     <button className="flex items-center gap-1 text-gray-700 ${isMobile ? 'text-[8px]' : 'text-[12px]'} font-medium hover:text-[#004d40] transition-colors">
-                        <img src="src/assets/price.png" className={`${isMobile ? 'w-2 h-2' : 'w-4 h-4'}`} />
+                        <img src="/images/price.png" className={`${isMobile ? 'w-2 h-2' : 'w-4 h-4'}`} />
                         <span className={`${isMobile?"text-[8px] ":""}`}>View Similar</span>
                     </button>
 
                     <button className="bg-cover bg-center bg-no-repeat text-white flex items-center gap-1 ${isMobile ? 'py-0' : 'py-0 px-6 text-sm'} rounded-l-full rounded-r-md hover:opacity-90 transition-opacity shadow-sm"
-                        style={{ backgroundImage: "url('src/assets/buybg.png')" }}>
-                        <img src="src/assets/buycart.png" className={`${isMobile ? 'w-3 h-3' : 'w-4 h-4'}`} />
+                        style={{ backgroundImage: "url('/images/buybg.png')" }}>
+                        <img src="/images/buycart.png" className={`${isMobile ? 'w-3 h-3' : 'w-4 h-4'}`} />
                         <span className={`${isMobile?"font-semibold text-[8px] p-1":"p-1"}`}>Buy Now</span>
                     </button>
                 </div>
